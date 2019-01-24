@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="61dp"
+        android:text="Admin Token"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:textStyle="bold|normal" />
+
+    <EditText
+        android:id="@+id/loginEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="190dp"
+        android:backgroundTint="#cda7f4"
+        android:inputType="text"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="18dp"
+        android:text="WebApi"
+        android:textColor="#000"
+        android:textColorHint="#000fff"
+        android:textSize="10pt" />
+    android:text ="WebApi"
+    <EditText
+        android:id="@+id/loginPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginEmail"
+        android:text="pB6Ym9xW1p"
+        android:inputType="textPassword"
+        android:paddingBottom="18dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:textColor="#000"
+        android:textColorHint="#000fff"
+        android:backgroundTint="#cda7f4"
+        android:textSize="10pt" />
+    android:text="pB6Ym9xW1p"
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:layout_below="@+id/loginPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="#c85ae49a"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:textColor="#000fff"
+        android:textSize="58px" />
+
+</RelativeLayout>
